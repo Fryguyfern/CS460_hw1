@@ -1,0 +1,38 @@
+@model GroceryItem
+@{
+    ViewData["Title"] = "Add an List of Items";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Add several items with the same specs into your grocerylist, hitting "submit" will bring you to your grocery list</p>
+<form asp-action="Grocery" method="post">
+    <p>Item Names: (separate via comma)</p><textarea rows="4" cols="50" name="namelist"></textarea>
+    <p>Items Category:<select name="category">
+        <option value="Other">Other</option>
+        <option value="Produce">Produce</option>
+        <option value="Dairy">Dairy</option>
+        <option value="Deli">Deli</option>
+        <option value="Canned Goods">Canned Goods</option>
+        <option value="Cereal">Cereal</option>
+        <option value="Bakery">Bakery</option>
+        
+    </select></p>
+    <p>Quantity for each item:<input type="number" min="1" name="quantity" value="1"></p>
+    <p>Store:<select name="store">
+        <option value="Other">Other</option>
+        <option value="Safeway">Safeway</option>
+        <option value="Roths">Roths</option>
+        <option value="WareMart">WareMart</option>
+        <option value="BiMart">BiMart</option>
+        <option value="Walmart">Walmart</option>
+        <option value="Market of Choice">Market of Choice</option>
+        
+    </select></p>
+    <p>Coupon:<select name="coupon">
+        
+        <option value="False">No Coupon</option>
+        <option value="True">Have Coupon</option>
+    </select></p>
+    <p>Coupon Description: <input type="text" name="coupondesc"></p>
+    <button type="submit">Add Items to my shopping list</button>
+</form>

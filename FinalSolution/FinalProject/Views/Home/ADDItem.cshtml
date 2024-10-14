@@ -1,0 +1,46 @@
+@model GroceryItem
+@{
+    ViewData["Title"] = "Add an Item";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<form asp-action="ADDitem" method="get">
+    <p>Item Name:<input type="text" asp-for="Name"></p>
+    <p>Item Category:<select asp-for="Category">
+        <option value="Other">Other</option>
+        <option value="Produce">Produce</option>
+        <option value="Dairy">Dairy</option>
+        <option value="Deli">Deli</option>
+        <option value="Canned Goods">Canned Goods</option>
+        <option value="Cereal">Cereal</option>
+        <option value="Bakery">Bakery</option>
+        
+    </select></p>
+    <p>Quantity:<input type="number" min="1" asp-for="Quantity" value="1"></p>
+    <p>Store:<select asp-for="Store">
+        <option value="Other">Other</option>
+        <option value="Safeway">Safeway</option>
+        <option value="Roths">Roths</option>
+        <option value="WareMart">WareMart</option>
+        <option value="BiMart">BiMart</option>
+        <option value="Walmart">Walmart</option>
+        <option value="Market of Choice">Market of Choice</option>
+        
+    </select></p>
+    <p>Coupon:<select asp-for="Coupon">
+        
+        <option value="False">No Coupon</option>
+        <option value="True">Have Coupon</option>
+    </select></p>
+    <p>Coupon Description<input type="text" asp-for="CouponDesc"></p>
+    <button type="submit">Add Item to my shopping list</button>
+</form>
+<br>
+<br>
+@if(@Model.Name != null){
+    <p> You have added @Model.Quantity @Model.Name from @Model.Store to your shopping list</p>
+    @if(@Model.Coupon){
+        <p>You have a coupon for this item: @Model.CouponDesc</p>
+    }
+}

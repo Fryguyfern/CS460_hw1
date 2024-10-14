@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">CS 366 Final Project</h1>
+    <hr>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2>Add Items to your grocery list</h2>
+      <p>Use this tool to add items to your grocery list. Items will be recorded in session and formatted later</p>
+        <a asp-area="" asp-controller="Home" asp-action="ADDItem">Try it out</a>
+        <br>
+        <br>
+        <h2>Add Items from a list</h2>
+        <p>Or use this tool to add a list of items to your grocery list. Items will be recorded in session and formatted later</p>
+        <a asp-area="" asp-controller="Home" asp-action="ADDList">Try it out</a>
+    </div>
+    <div class="col-sm">
+      <h2> View grocery list</h2>
+      <p> This page will allow you to view your complete grocery list</p>
+      <a asp-area="" asp-controller="Home" asp-action="Grocery">Check it out</a>
+    </div>
+  </div>
+</div>

@@ -5,11 +5,29 @@
 <div>
     <p>Enter a list of names, one name per line, with only alphabetical characters and .,-_'</p>
     <form asp-action="teams" method="post">
-    <textarea id ="names" name = "names" cols=50 rows=20> </textarea>
+    <textarea id ="names" name = "names" cols=50 rows=20 oninput="myFunction()" value=""> </textarea>
     <p>Tell us how many people in a team (must be an integer betwen 2 and 10)</p>
-    <input id="teamsize" name= "teamsize" type="number" min=2 max=10 step=1 value=2>
+    <input id="teamsize" name= "teamsize" type="number" min=2 max=10 step=1 value=2 >
     <div>
-    <input type="submit">
+    <input type="submit" id="button">
     </div>
     </form>
 </div>
+
+
+<script>
+let warning=true;
+function myFunction() {
+    let text=document.getElementById("names").value;
+    
+    if(!text.match(/^[a-zA-Z\',-\. \n]*$/)){
+        if(warning){
+            alert("please only submit leters or the characters ,.-'")
+            warning=false;}
+        $('#button').attr('disabled','disabled');}
+    else{
+        $('#button').removeAttr('disabled','disabled');
+        warning=true;
+    }
+}
+</script>

@@ -5,7 +5,7 @@
 <div>
     <p>Enter a list of names, one name per line, with only alphabetical characters and .,-_'</p>
     <form asp-action="teams" method="post">
-    <textarea id ="names" name = "names" cols=50 rows=20 oninput="myFunction()" value=""> </textarea>
+    <textarea id ="names" name = "names" cols=50 rows=20 oninput="myFunction()" value="" required> </textarea>
     <p>Tell us how many people in a team (must be an integer betwen 2 and 10)</p>
     <input id="teamsize" name= "teamsize" type="number" min=2 max=10 step=1 value=2 >
     <div>
@@ -22,7 +22,7 @@ function myFunction() {
     
     if(!text.match(/^[a-zA-Z\',-\. \n]*$/)){
         if(warning){
-            alert("please only submit leters or the characters ,.-'")
+            alert("please only submit leters or the characters ,.-', and no empty boxs please!")
             warning=false;}
         $('#button').attr('disabled','disabled');}
     else{

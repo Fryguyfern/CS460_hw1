@@ -12,13 +12,19 @@
     shuffle();
     
 }
+<div>
+
+ 
+ <button id="button1" OnClick="get_names()">assign names to all the teams (repeatable) </button>
+</div>
+<div>
 <div class="row">
 @foreach(List<string> team in Model){
 
 <div class="col-sm-3">
 <div class="card bg-primary text-white" style="width: 18rem;">
-    <p class="text-center" id="teamnames"> team @count</p>
-    <p class="text-center" id="teamnames2" hidden> team @lines[count]</p>
+    <p class="text-center" id="@("teamnames"+count)"> team @count</p>
+
   <img class="card-img-top" src="@Url.Content(albums[_rand.Next(16)])" alt="Card image cap">
   <div class="card-body">
     
@@ -33,13 +39,5 @@
 
 </div></div>
 count++;}</div>
-<div>
-
- 
- <button id="button1" OnClick="get_names()">assign names </button>
-</div>
-<div>
 
 
- <button  id="button2" OnClick="reloaddiv()" hidden>go again</button>
-</div>

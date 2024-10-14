@@ -3,3 +3,13 @@
 
 // Write your JavaScript code.
 
+function get_names(){
+    $('#teamnames').attr('hidden','hidden');
+    $('#teamnames2').removeAttr('hidden', 'hidden');
+    $('#button1').attr('hidden','hidden');
+    $('#button2').removeAttr('hidden', 'hidden');
+
+}
+function reloaddiv(){
+    $("#teamnames2").load(" #teamnames2 > *");
+}

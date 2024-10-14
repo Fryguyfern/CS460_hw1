@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\felt_track_names.txt",
+      "PackagePath": "staticwebassets\\felt_track_names.txt"
+    },
+    {
       "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album1.jpg",
       "PackagePath": "staticwebassets\\images\\album1.jpg"
     },
@@ -311,6 +315,10 @@
     {
       "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\tracks_trimmed.txt",
+      "PackagePath": "staticwebassets\\tracks_trimmed.txt"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.solution.props",

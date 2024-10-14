@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dRykRVCG38YoEVi5yX3dc7iYN1uAuDeoQcQKT/m9x90=",
+  "Hash": "uwmvIYp3wZkoFlrGzbaSbX8DGfpKgGtVpXiHLVm396k=",
   "Source": "solution",
   "BasePath": "_content/solution",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\felt_track_names.txt",
+      "SourceId": "solution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\",
+      "BasePath": "_content/solution",
+      "RelativePath": "felt_track_names.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\felt_track_names.txt"
     },
     {
       "Identity": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album1.jpg",
@@ -1516,6 +1535,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\tracks_trimmed.txt",
+      "SourceId": "solution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\",
+      "BasePath": "_content/solution",
+      "RelativePath": "tracks_trimmed.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tracks_trimmed.txt"
     }
   ]
 }

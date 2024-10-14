@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M/mMkQbZe5E=",
+  "dgSpecHash": "G6JMWVHNjek=",
   "success": true,
   "projectFilePath": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\solution.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jfern\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512"
+  ],
   "logs": []
 }

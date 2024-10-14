@@ -29,3 +29,7 @@ C:\Users\jfern\projects\CS460_hw1\solution\obj\Debug\net8.0\refint\solution.dll
 C:\Users\jfern\projects\CS460_hw1\solution\obj\Debug\net8.0\solution.pdb
 C:\Users\jfern\projects\CS460_hw1\solution\obj\Debug\net8.0\solution.genruntimeconfig.cache
 C:\Users\jfern\projects\CS460_hw1\solution\obj\Debug\net8.0\ref\solution.dll
+C:\Users\jfern\projects\CS460_hw1\solution\bin\Debug\net8.0\nunit.framework.dll
+C:\Users\jfern\projects\CS460_hw1\solution\bin\Debug\net8.0\nunit.framework.legacy.dll
+C:\Users\jfern\projects\CS460_hw1\solution\obj\Debug\net8.0\solution.csproj.AssemblyReference.cache
+C:\Users\jfern\projects\CS460_hw1\solution\obj\Debug\net8.0\solution.csproj.Up2Date

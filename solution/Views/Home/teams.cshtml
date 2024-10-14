@@ -1,0 +1,32 @@
+@model List<List<string>>
+@{
+    ViewData["Title"] = "teams page";
+    int count=1;
+    string test="~/images/album1.jpg";
+    string[] albums=["~/images/album1.jpg","~/images/album2.jpg","~/images/album3.jpg","~/images/album4.jpg","~/images/album5.jpg","~/images/album6.jpg","~/images/album7.jpg","~/images/album8.jpg","~/images/album9.jpg","~/images/album10.jpg","~/images/album11.jpg","~/images/album12.jpg","~/images/album13.jpg","~/images/album14.png","~/images/album15.jpg","~/images/album16.jpg","~/images/album17.png"];
+    Random _rand= new Random();
+}
+<div class="row">
+@foreach(List<string> team in Model){
+
+<div class="col-sm-3">
+<div class="card bg-primary text-white" style="width: 18rem;">
+    <p class="text-center"> team @count</p>
+  <img class="card-img-top" src="@Url.Content(albums[_rand.Next(16)])" alt="Card image cap">
+  <div class="card-body">
+    
+    
+    
+    @foreach(string name in team){
+        <p> @name </p>
+    }
+    
+    
+  </div>
+
+</div></div>
+count++;}</div>
+<div>
+
+ <p> </p>
+</div>

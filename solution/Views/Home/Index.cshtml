@@ -2,7 +2,14 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+    <p>Enter a list of names, one name per line, with only alphabetical characters and .,-_'</p>
+    <form asp-action="teams" method="post">
+    <textarea id ="names" name = "names" cols=50 rows=20> </textarea>
+    <p>Tell us how many people in a team (must be an integer betwen 2 and 10)</p>
+    <input id="teamsize" name= "teamsize" type="number" min=2 max=10 step=1 value=2>
+    <div>
+    <input type="submit">
+    </div>
+    </form>
 </div>

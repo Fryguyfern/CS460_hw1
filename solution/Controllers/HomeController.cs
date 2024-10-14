@@ -22,7 +22,19 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    [HttpGet]
+    public IActionResult teams()
+    {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult teams(string? names, int teamsize)
+    {
+        teammodel.makenames(names.Split("\n"));
+        
+        teammodel.shuffle(teamsize);
+        return View("teams", teammodel.teamsplit);
+    }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

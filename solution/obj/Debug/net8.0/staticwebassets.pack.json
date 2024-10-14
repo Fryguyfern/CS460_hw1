@@ -13,6 +13,74 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album1.jpg",
+      "PackagePath": "staticwebassets\\images\\album1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album10.jpg",
+      "PackagePath": "staticwebassets\\images\\album10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album11.jpg",
+      "PackagePath": "staticwebassets\\images\\album11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album12.jpg",
+      "PackagePath": "staticwebassets\\images\\album12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album13.jpg",
+      "PackagePath": "staticwebassets\\images\\album13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album14.png",
+      "PackagePath": "staticwebassets\\images\\album14.png"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album15.jpg",
+      "PackagePath": "staticwebassets\\images\\album15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album16.jpg",
+      "PackagePath": "staticwebassets\\images\\album16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album17.png",
+      "PackagePath": "staticwebassets\\images\\album17.png"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album2.jpg",
+      "PackagePath": "staticwebassets\\images\\album2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album3.jpg",
+      "PackagePath": "staticwebassets\\images\\album3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album4.jpg",
+      "PackagePath": "staticwebassets\\images\\album4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album5.jpg",
+      "PackagePath": "staticwebassets\\images\\album5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album6.jpg",
+      "PackagePath": "staticwebassets\\images\\album6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album7.jpg",
+      "PackagePath": "staticwebassets\\images\\album7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album8.jpg",
+      "PackagePath": "staticwebassets\\images\\album8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\images\\album9.jpg",
+      "PackagePath": "staticwebassets\\images\\album9.jpg"
+    },
+    {
       "Id": "C:\\Users\\jfern\\projects\\CS460_hw1\\solution\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
